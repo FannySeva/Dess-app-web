@@ -1,0 +1,44 @@
+h1{
+    font-family: Brush Script MT, Arial, Georgia, Times, 'Times New Roman', serif;
+    color: blueviolet;
+    text-align: center;
+    text-transform: uppercase;
+}
+h3{
+    font-family: Arial;
+    color: rgb(43, 5, 77);
+}
+.primary-button a {background-image: linear-gradient(to right, #000000 0%, #e74c3c  51%, #000000  100%)}
+.primary-button a {
+   margin: 30px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.8s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 25px;
+   display: block;
+}
+.primary-button a:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+ .border-button a {
+     display: inline-block;
+     background-color: transparent;
+     color: #fff;
+     font-size: 13px;
+     text-transform: uppercase;
+     font-weight: 500;
+     padding: 12px 20px;
+     border-radius: 3px;
+     text-decoration: none;
+     letter-spacing: 0.5px;
+     border: 1px solid #fff;
+}
+body{
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+}
